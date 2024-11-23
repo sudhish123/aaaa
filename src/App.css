@@ -1,0 +1,45 @@
+
+
+
+.container{
+    font-family: 'Roboto', sans-serif;
+}
+
+h2{
+  text-align: center;
+}
+
+.form{
+  display: flex;
+  justify-content: space-evenly;
+  place-items: center;
+  width: 70%;
+}
+.cards{
+  display: flex;
+  flex-wrap: wrap;
+  place-items: center;
+  margin-top: 2rem;
+  margin-left: 5rem;
+}
+.card{
+  width: 22vw;
+  margin: 1rem;
+  box-shadow: rgb(168, 163, 163) 0px 5px 8px 1px;
+  padding: 2rem;
+}
+.action{
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.action > img {
+  height : 20px;
+  width : 20px;
+  margin-top: 2rem;
+}
+
+.action > img:hover{  
+  transform: scale(1.1);
+  cursor: pointer;
+}
